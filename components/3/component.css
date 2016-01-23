@@ -1,4 +1,53 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+	background: #fff;
+	font: 16px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+#cta {
+	position: relative;
+	padding: 15em 2rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+#cta video { 
+	position: absolute; top: 50%; left: 50%;
+	z-index: -1;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+button {
+	width: 15%;
+	margin: 0 auto;
+	padding: 1.35em 0;
+	background: #FC8908;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 0.8em;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #E36900;
+}
+
 
