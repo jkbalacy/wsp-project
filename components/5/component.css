@@ -1,4 +1,55 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+	background:url('img/bg.png') no-repeat center center #1d1d1d;
+	color:#eee;
+	font-family:Corbel,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	padding: 70px 0;
+}
 
+#rocket{
+	width:275px;
+	height:375px;
+	background:url('img/rocket.png') no-repeat;
+	margin:140px auto 50px;
+	position:relative;
+}
+
+h1, h2{
+	display:block;
+	margin:0 auto;
+	width:850px;
+	font-family:'Century Gothic',Calibri,'Myriad Pro',Arial,Helvetica,sans-serif;
+	text-align:center;
+}
+
+h1{
+	color:#76D7FB;
+	font-size:60px;
+	text-shadow:3px 3px 0 #3D606D;
+	white-space:nowrap;
+}
+
+h2{
+	color:#9FE3FC;
+	font-size:18px;
+	font-weight:normal;
+	padding:25px 0;
+}
+
+button{
+	position: absolute;
+	width: 15%;
+	margin: 0 40%;
+	padding: 1.35em 0;
+	background: #FC8908;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 0.8em;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+}
