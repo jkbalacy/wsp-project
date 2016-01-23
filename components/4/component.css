@@ -1,4 +1,66 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+#wrapper {
+	width: 96%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+} 
 
+#main {
+	width: 60%;
+	margin-right: 5%;
+	float: left;
+}		
+		
+aside {
+	width: 35%;
+	float: right;
+}
+
+a, p, h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #343434;
+}
+		
+/* Nav */
+header nav {
+	float: right;
+	margin-top: 40px; 
+}
+	
+header nav li {
+	display: inline;
+	margin-left: 15px;
+}
+
+/* Hero */			
+#hero {
+	margin-bottom: 15px;
+	width: 100%;
+	}
+
+	#hero img {
+		width: 100%;
+	}
+
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	header nav, #main, aside {
+		margin: 0 0 10px; 
+		width: 100%;
+	}	
+	header nav li {
+		margin: 0;
+		background: #efefef;
+		display: block;
+		margin-bottom: 3px;
+	}
+	header nav a {
+		display: block;
+		padding: 10px;
+		text-align: center;
+	}			
+}
