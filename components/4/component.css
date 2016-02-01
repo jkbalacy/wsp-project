@@ -27,7 +27,7 @@ a, p, h1 {
 /* Nav */
 header nav {
 	float: right;
-	margin-top: 40px; 
+	margin-top: 2%; 
 }
 	
 header nav li {
@@ -39,12 +39,11 @@ header nav li {
 #hero {
 	margin-bottom: 15px;
 	width: 100%;
-	}
+}
 
-	#hero img {
-		width: 100%;
-	}
-
+#hero img {
+	width: 100%;
+}
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
